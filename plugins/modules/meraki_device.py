@@ -292,7 +292,7 @@ def main():
 
     query_urls = {'device': '/networks/{net_id}/devices'}
     query_org_urls = {'device': '/organizations/{org_id}/devices'}
-    query_device_urls = {'device': '/networks/{net_id}/devices/{serial}'}
+    query_device_urls = {'device': '/devices/{serial}'}
     query_device_lldp_urls = {'device': '/devices/{serial}/lldpCdp'}
     claim_device_urls = {'device': '/networks/{net_id}/devices/claim'}
     bind_org_urls = {'device': '/organizations/{org_id}/claim'}
