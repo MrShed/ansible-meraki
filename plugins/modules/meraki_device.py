@@ -296,7 +296,7 @@ def main():
     query_device_lldp_urls = {'device': '/devices/{serial}/lldpCdp'}
     claim_device_urls = {'device': '/networks/{net_id}/devices/claim'}
     bind_org_urls = {'device': '/organizations/{org_id}/claim'}
-    update_device_urls = {'device': '/networks/{net_id}/devices/'}
+    update_device_urls = {'device': '/devices/'}
     delete_device_urls = {'device': '/networks/{net_id}/devices/{serial}/remove'}
 
     meraki.url_catalog['get_all'].update(query_urls)
